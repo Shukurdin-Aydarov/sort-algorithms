@@ -56,10 +56,3 @@ function updateBenchmark(id, time) {
     const bench = root.getElementsByClassName("bench")[0];
     bench.style.width = `${percent}%`;
 }
-
-function compute(salary, bonus, additional) {
-    let s = salary * 12;
-    s = s + s * bonus * 4;
-
-    return s + additional;
-}
