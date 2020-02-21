@@ -1,0 +1,53 @@
+.title {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Cascadia Code';
+    align-self: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+.flex-container-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-light-green {
+    background-color: lightgreen;
+    z-index: -1;
+}
+
+.bg-green {
+    background-color: green;
+    z-index: -1;
+}
+
+.bg-light-yellow {
+    background-color: lightyellow;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-light-gray {
+    background-color: lightsalmon;
+}
+
+.bg-gray {
+    background-color: red;
+}
+
+.progress-text {
+    font-family: "Cascadia Code";
+    text-align: left;
+}
+
+.text {
+    font-size: medium;
+}

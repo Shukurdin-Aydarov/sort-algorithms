@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </header>
+    
+    <body>
+        <div class="flex-container">
+            <p class="title">Sorts</p>
+            <div>
+                <p class="text">Input length: <b>10000</b></p>
+            </div>
+            <div id="quick-sort">
+                <span class="progress-text">1. Quick sort <b>%progress%</b> ms</span>
+                <div class="bg-light-green">
+                    <div class="bench bg-green" style="height:24px;width:80%">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div id="insertion-sort">
+                <span class="progress-text">2. Insertion sort <b >%progress%</b> ms</span>
+                <div class="bg-light-yellow">
+                    <div class="bench bg-yellow" style="height:24px;width:80%">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div id="bubble-sort">
+                <span class="progress-text">3. Bubble sort <b>%progress%</b> ms</span>
+                <div class="bg-light-gray">
+                    <div class="bench bg-gray" style="height:24px;width:80%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="sorts.js"></script>
+    <script src="Stopwatch.js"></script>
+    <script src="main.js"></script>
+</html>
